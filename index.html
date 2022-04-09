@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="scripts/splide-4.0.0/dist/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="scripts/Magnific-Popup/dist/magnific-popup.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/logo2.png" />
+    <title>ARS INŽENJERING</title>
+  </head>
+  <body>
+    <section class="scroll">
+      <div class="scroll-line"></div>
+      <img
+        src="assets/scroll-thumb.svg"
+        class="scroll__thumb"
+        alt="Infinity Scroll"
+      />
+    </section>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/ars-logo.png" alt="Ars Inzenjering" />
+        </a>
+
+        <label class="navbar-toggler" for="slide-menu-right" type="button">
+          <span> </span>
+          <span> </span>
+          <span> </span>
+        </label>
+
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav align-items-center">
+            <ul
+              id="menu-main"
+              class="navbar-nav mb-2 mb-md-0 justify-content-between ms-1"
+            >
+              <li id="" class="menu-item nav-item">
+                <a href="#" class="nav-link active per-btn"
+                  ><span>O nama</span></a
+                >
+              </li>
+              <li id="" class="menu-item nav-item per-btn">
+                <a href="#" class="nav-link"><span>Usluge</span></a>
+              </li>
+              <li id="" class="menu-item nav-item per-btn">
+                <a href="#" class="nav-link"><span>Proizvodi</span></a>
+              </li>
+              <li id="" class="menu-item nav-item per-btn">
+                <a href="#" class="nav-link"><span>Reference</span></a>
+              </li>
+              <li id="" class="menu-item nav-item per-btn">
+                <a href="#" class="nav-link"><span>Sertifikati</span></a>
+              </li>
+              <li id="" class="menu-item nav-item per-btn">
+                <a href="#" class="nav-link"><span>Kontakt</span></a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menu Items -->
+    <div class="slide-menu">
+      <input id="slide-menu-right" class="menu-toggle" type="checkbox" />
+      <div class="menu-wrap">
+        <label for="slide-menu-right" class="menu-close">Close</label>
+        <div class="menu-list">
+          <ul>
+            <li class=""><a class="" href="#">O nama</a></li>
+            <li class="">
+              <a class="" href="#">Usluge</a>
+            </li>
+            <li class=""><a class="" href="#">Proizvodi</a></li>
+            <li class="">
+              <a class="" href="#">Reference</a>
+            </li>
+            <li class=""><a class="" href="#">Sertifikati</a></li>
+            <li class="">
+              <a class="" href="#">Kontakt</a>
+            </li>
+            <li>
+              <div class="sidemenu-social-wrap">
+                <div
+                  class="social-box d-flex align-items-center justify-content-center"
+                >
+                  <a href="" class="social-icon"
+                    ><img src="assets/youtube.svg" alt=""
+                  /></a>
+                  <a href="" class="social-icon"
+                    ><img src="assets/facebook.svg" alt=""
+                  /></a>
+                  <a href="" class="social-icon"
+                    ><img src="assets/linkedin.svg" alt=""
+                  /></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <label for="slide-menu-right" class="menu-overlay"></label>
+    </div>
+
+    <section class="hero-carousel">
+      <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselHero"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselHero"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselHero"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="background-image: url(img/hero.jpg)"
+          >
+            <div class="dark-overlay"></div>
+            <div
+              class="carousel-item-content container d-flex flex-column justify-content-center h-100"
+            >
+              <div class="align-items-center hero-heading-wrap">
+                <div
+                  class="hero-headings d-flex justify-content-center w-100 h-100 flex-column"
+                >
+                  <h3>Kompletna rješenja</h3>
+                  <h1>ENERGETIKA</h1>
+                </div>
+                <div
+                  class="hero-btn-play-wrap d-flex justify-content-center w-100 h-100"
+                >
+                  <a
+                    class="play-btn popup-youtube"
+                    href="https://www.youtube.com/watch?v=2wnbqESwy6M"
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="hero-link-block d-flex justify-content-between align-items-end"
+              >
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Dalekovodi</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/utility-pole-double.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Trafostanice</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/transformer-bolt.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Rasvjetni stubovi</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/lamp-street.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Vjetroelektrane</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/wind-turbine.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Solarne elektrane</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/solar-panel.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(img/antenski-stubovi.JPG)"
+          >
+            <div class="dark-overlay"></div>
+            <div
+              class="carousel-item-content container d-flex flex-column justify-content-center h-100"
+            >
+              <div class="align-items-center hero-heading-wrap">
+                <div
+                  class="hero-headings d-flex justify-content-center w-100 h-100 flex-column"
+                >
+                  <h3>Kompletna rješenja</h3>
+                  <h1>ENERGETIKA</h1>
+                </div>
+                <div
+                  class="hero-btn-play-wrap d-flex justify-content-center w-100 h-100"
+                >
+                  <a
+                    class="play-btn popup-youtube"
+                    href="https://www.youtube.com/watch?v=2wnbqESwy6M"
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="hero-link-block d-flex justify-content-between align-items-end"
+              >
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Dalekovodi</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/utility-pole-double.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Trafostanice</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/transformer-bolt.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Rasvjetni stubovi</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/lamp-street.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Vjetroelektrane</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/wind-turbine.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Solarne elektrane</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/solar-panel.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(img/dalekovod.jpg)"
+          >
+            <div class="dark-overlay"></div>
+            <div
+              class="carousel-item-content container d-flex flex-column justify-content-center h-100"
+            >
+              <div class="align-items-center hero-heading-wrap">
+                <div
+                  class="hero-headings d-flex justify-content-center w-100 h-100 flex-column"
+                >
+                  <h3>Kompletna rješenja</h3>
+                  <h1>ENERGETIKA</h1>
+                </div>
+                <div
+                  class="hero-btn-play-wrap d-flex justify-content-center w-100 h-100"
+                >
+                  <a
+                    class="play-btn popup-youtube"
+                    href="https://www.youtube.com/watch?v=2wnbqESwy6M"
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="hero-link-block d-flex justify-content-between align-items-end"
+              >
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Dalekovodi</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/utility-pole-double.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Trafostanice</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/transformer-bolt.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Rasvjetni stubovi</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/lamp-street.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Vjetroelektrane</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/wind-turbine.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+                <div class="hero-link-wrap">
+                  <a href="#" class="hero-link"
+                    ><div class="hero-link-text">Solarne elektrane</div>
+                    <div class="hero-link-icon">
+                      <img
+                        src="assets/solar-panel.svg"
+                        alt=""
+                        class="d-block d-lg-none"
+                      /></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-social-wrap d-none d-lg-inline-block">
+        <div
+          class="social-box d-flex align-items-center justify-content-center"
+        >
+          <a href="" class="social-icon"
+            ><img src="assets/youtube.svg" alt=""
+          /></a>
+          <a href="" class="social-icon"
+            ><img src="assets/facebook.svg" alt=""
+          /></a>
+          <a href="" class="social-icon"
+            ><img src="assets/linkedin.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="standard-block about-section">
+      <div class="background-logo">
+        <img src="assets/logo2.png" alt="" class="img-fluid" />
+      </div>
+      <div class="container">
+        <div class="section-content">
+          <div class="big-heading">O NAMA</div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content-wrap mb-5 mb-lg-0">
+                <div class="heading-wrap mb-5">
+                  <h2>O nama</h2>
+                </div>
+                <p>
+                  ARS inženjering d.o.o. Banjaluka je kompanija koja već 20
+                  godina ispunjava zahtjeve klijenata.
+                </p>
+                <p>
+                  Danas raspolažemo sa najboljim softverima, vrhunskim
+                  stručnjacima i tehnološkim potencijalima koji garantuju
+                  brzinu, stručnost i kvalitet izrade svih projekata.
+                </p>
+                <p>
+                  U periodu od 2002. godine pa do danas za potrebe investitora
+                  iz oblasti energetike i telekomunikacija realizovali smo preko
+                  3.500 projekata. Proizvodni kapacitet, u zavisnosti od
+                  složenosti izrade iznosi do 1.000 tona gotovog proizvoda na
+                  godišnjem nivou, uz mogućnost proširenja kapaciteta, a sve u
+                  zavisnosti od potreba tržišta.
+                </p>
+                <p>
+                  U prethodnom periodu realizovali smo preko 3.000
+                  telekomunikacionih objekata.
+                </p>
+                <p>
+                  Takođe, realizovali smo i preko 1.500 kilometara
+                  elektroenergetskih vodova naponskih nivoa od 1kV do 400kV.
+                </p>
+                <div class="about-btn-wrap mt-5">
+                  <a href="#" class="btn btn-primary pulse-grow-on-hover"
+                    >Pročitaj još</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="content-wrap h-100 d-flex align-items-center">
+                <div class="video-wrap corner-border">
+                  <iframe
+                    class="video-iframe"
+                    width="100%"
+                    height="300px"
+                    src="https://www.youtube.com/embed/5NJaJzTuQrE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="counter-block">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
+                <div class="counter-wrap">
+                  <div
+                    class="counter-box d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <div class="counter-number">20</div>
+                    <div class="counter-text">GODINA ISKUSTVA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
+                <div class="counter-wrap">
+                  <div
+                    class="counter-box d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <div class="counter-number">90</div>
+                    <div class="counter-text">ZAPOSLENIH RADNIKA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
+                <div class="counter-wrap">
+                  <div
+                    class="counter-box d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <div class="d-flex">
+                      <div class="counter-number">3500</div>
+                      <div class="counter-plus">+</div>
+                    </div>
+                    <div class="counter-text">REALIZOVANIH PROJEKATA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
+                <div class="counter-wrap">
+                  <div
+                    class="counter-box d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <div class="counter-number">5</div>
+                    <div class="counter-text">ZEMALJA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="usluge-section standard-block"
+      style="background-image: url(img/usluge.JPG)"
+    >
+      <div class="bg-overlay"></div>
+      <div class="container">
+        <div class="section-content">
+          <div class="big-heading">Usluge</div>
+          <div class="heading-wrap mb-5">
+            <h2>Usluge</h2>
+          </div>
+          <div class="card-block">
+            <div class="row">
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="card-wrap">
+                  <div class="card-box d-flex flex-column">
+                    <div class="card-title-wrap d-flex align-items-end">
+                      <div class="card-icon">
+                        <img
+                          src="assets/list-tree.svg"
+                          alt=""
+                          class="card-icon"
+                        />
+                      </div>
+                      <div class="card-title">PROJEKTOVANJE</div>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        Projektni biro kompanije čini stručni tim inženjera
+                        građevine, geodezije, mašinstva i elektrotehnike, koji
+                        svojim iskustvom garantuju brzu i kvalitetnu realizaciju
+                        svih vrsta projekata. Projektni biro takođe raspolaže sa
+                        najsavremenijim softverskim paketima i opremom. U
+                        periodu od 2002. godine pa do danas za potrebe
+                        investitora iz oblasti energetike i telekomunikacija
+                        realizovali smo preko 3.500 projekata.
+                      </p>
+                    </div>
+                    <div class="usluge-btn-wrap w-100">
+                      <a href="#" class="btn btn-primary pulse-grow-on-hover"
+                        >Pročitaj još</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="card-wrap">
+                  <div class="card-box d-flex flex-column">
+                    <div class="card-title-wrap d-flex align-items-end">
+                      <div class="card-icon">
+                        <img src="assets/gears.svg" alt="" class="card-icon" />
+                      </div>
+                      <div class="card-title">PROIZVODNJA</div>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        Proizvodnja se odvija u pogonu opremljenom modernim
+                        mašinama i opremom za zavarivanje, savijanje, bušenje i
+                        sječenje metala. Proizvodnja se sastoji od dvije
+                        proizvodne linije, linije za proizvodnju dijelova
+                        čelično-rešetkastih i čeličnovarenih konstrukcija i
+                        jedne proizvodne linije za proizvodnju cijevnih stubova.
+                        Proizvodni kapacitet, u zavisnosti od složenosti izrade
+                        čeličnih konstrukcija iznosi do 1.000 tona gotovog
+                        proizvoda na godišnjem nivou,
+                      </p>
+                    </div>
+                    <div class="usluge-btn-wrap w-100">
+                      <a href="#" class="btn btn-primary pulse-grow-on-hover"
+                        >Pročitaj još</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="card-wrap">
+                  <div class="card-box d-flex flex-column">
+                    <div class="card-title-wrap d-flex align-items-end">
+                      <div class="card-icon">
+                        <img
+                          src="assets/utility-pole-double.svg"
+                          alt=""
+                          class="card-icon"
+                        />
+                      </div>
+                      <div class="card-title">IZGRADNJA</div>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        Naša kompanija raspolaže sa kompletnom sopstvenom
+                        opremom za izvođenje građevinsko-zanatskih, montažnih i
+                        elektro-montažnih radova iz oblasti energetike i
+                        telekomunikacija. Izgradnju objekata radimo po sistemu
+                        ključ u ruke ili po fazama, a sve u zavisnosti od
+                        zahtjeva investitora. Takođe, izvođenje svih radova
+                        vršimo u skladu sa važećim propisima i standardima. U
+                        prethodnom periodu izgradili smo preko 3.000
+                        telekomunikacionih objekata tipa greeneld i roof top, i
+                        preko 1000 postojećih objekata prilagodili novim
+                        tehnologijama. Takođe, realizovali smo i preko 1.500
+                        kilometara elektroenergetskih vodova naponskih nivoa od
+                        1kV do 400kV
+                      </p>
+                    </div>
+                    <div class="usluge-btn-wrap w-100">
+                      <a href="#" class="btn btn-primary pulse-grow-on-hover"
+                        >Pročitaj još</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="standard-block proizvodi-section">
+      <div class="background-logo">
+        <img src="assets/logo2.png" alt="" class="img-fluid" />
+      </div>
+      <div class="container">
+        <div class="section-content">
+          <div class="big-heading">Proizvodi</div>
+          <div class="heading-wrap mb-5">
+            <h2>Proizvodi</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+              <div class="proizvodi-accordion-wrap mt-3">
+                <div class="accordion accordion-flush" id="accordionProizvodi">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        DALEKOVODNI STUBOVI
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionProizvodi"
+                    >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Voluptatum, magnam.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        ANTENSKI STUBOVI
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwo"
+                      data-bs-parent="#accordionProizvodi"
+                    >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quis ipsum itaque aut officiis non, saepe dolore
+                        dolor molestias illo unde eveniet expedita eum explicabo
+                        excepturi maiores laboriosam veritatis, eos aspernatur!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        TRAFOSTANICE
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree"
+                      data-bs-parent="#accordionProizvodi"
+                    >
+                      <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. A numquam officia placeat obcaecati dignissimos,
+                        ipsa, omnis ut asperiores exercitationem in quo
+                        explicabo, debitis tempora animi nam optio sint. Dicta
+                        veniam recusandae suscipit in! Ipsa maxime molestias
+                        quia tenetur voluptatibus enim, neque sed aliquid.
+                        Perferendis nostrum eligendi explicabo totam quo
+                        mollitia.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFour"
+                      >
+                        RASVJETNI STUBOVI
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseFour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingFour"
+                      data-bs-parent="#accordionProizvodi"
+                    >
+                      <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. A numquam officia placeat obcaecati dignissimos,
+                        ipsa, omnis ut asperiores exercitationem in quo
+                        explicabo, debitis tempora animi nam optio sint. Dicta
+                        veniam recusandae suscipit in! Ipsa maxime molestias
+                        quia tenetur voluptatibus enim, neque sed aliquid.
+                        Perferendis nostrum eligendi explicabo totam quo
+                        mollitia.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFive"
+                      >
+                        ZAŠTITNE OGRADE
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseFive"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingFive"
+                      data-bs-parent="#accordionProizvodi"
+                    >
+                      <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. A numquam officia placeat obcaecati dignissimos,
+                        ipsa, omnis ut asperiores exercitationem in quo
+                        explicabo, debitis tempora animi nam optio sint. Dicta
+                        veniam recusandae suscipit in! Ipsa maxime molestias
+                        quia tenetur voluptatibus enim, neque sed aliquid.
+                        Perferendis nostrum eligendi explicabo totam quo
+                        mollitia.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseSix"
+                      >
+                        MONTAŽNI OBJEKTI
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseSix"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingSix"
+                      data-bs-parent="#accordionProizvodi"
+                    >
+                      <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. A numquam officia placeat obcaecati dignissimos,
+                        ipsa, omnis ut asperiores exercitationem in quo
+                        explicabo, debitis tempora animi nam optio sint. Dicta
+                        veniam recusandae suscipit in! Ipsa maxime molestias
+                        quia tenetur voluptatibus enim, neque sed aliquid.
+                        Perferendis nostrum eligendi explicabo totam quo
+                        mollitia.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSeven"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseSeven"
+                      >
+                        OSTALI PROIZVODI
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseSeven"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingSeven"
+                      data-bs-parent="#accordionProizvodi"
+                    >
+                      <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. A numquam officia placeat obcaecati dignissimos,
+                        ipsa, omnis ut asperiores exercitationem in quo
+                        explicabo, debitis tempora animi nam optio sint. Dicta
+                        veniam recusandae suscipit in! Ipsa maxime molestias
+                        quia tenetur voluptatibus enim, neque sed aliquid.
+                        Perferendis nostrum eligendi explicabo totam quo
+                        mollitia.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+              <div class="content-wrap h-100 d-flex align-items-center">
+                <div class="proizvodi-img-wrap corner-border">
+                  <img src="img/PROIZVODI.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="reference-section standard-block"
+      style="background-image: url(img/antenski-stubovi.JPG)"
+    >
+      <div class="bg-overlay"></div>
+      <div class="container">
+        <div class="section-content">
+          <div class="big-heading">REFERENCE</div>
+          <div class="heading-wrap mb-3 mb-lg-5">
+            <h2>REFERENCE</h2>
+          </div>
+          <div class="slider-wrap mt-3 mt-lg-5">
+            <div class="reference-slider">
+              <div
+                class="splide splide-reference"
+                aria-label="reference slider"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list d-flex align-items-center">
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="img/antenski-stubovi.JPG" alt="" />
+                        </div>
+                        <div class="slider-text-box text-center">
+                          <div class="slide-title">ANTENSKI STUBOVI</div>
+                          <div class="slider-btn-wrap">
+                            <a
+                              href="#"
+                              class="btn btn-primary pulse-grow-on-hover"
+                              >Detaljnije</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="img/bazne-stanice.JPG" alt="" />
+                        </div>
+                        <div class="slider-text-box text-center">
+                          <div class="slide-title">BAZNE STANICE</div>
+                          <div class="slider-btn-wrap">
+                            <a
+                              href="#"
+                              class="btn btn-primary pulse-grow-on-hover"
+                              >Detaljnije</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="img/dalekovod.jpg" alt="" />
+                        </div>
+                        <div class="slider-text-box text-center">
+                          <div class="slide-title">DALEKOVODI</div>
+                          <div class="slider-btn-wrap">
+                            <a
+                              href="#"
+                              class="btn btn-primary pulse-grow-on-hover"
+                              >Detaljnije</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="img/bazne-stanice.JPG" alt="" />
+                        </div>
+                        <div class="slider-text-box text-center">
+                          <div class="slide-title">BAZNE STANICE</div>
+                          <div class="slider-btn-wrap">
+                            <a
+                              href="#"
+                              class="btn btn-primary pulse-grow-on-hover"
+                              >Detaljnije</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sertifikati-section standard-block">
+      <div class="container">
+        <div class="section-content">
+          <div class="big-heading">SERTIFIKATI</div>
+          <div class="heading-wrap mb-5">
+            <h2>SERTIFIKATI</h2>
+          </div>
+          <div class="slider-wrap mt-xl-5">
+            <div class="part-sert-slider">
+              <div
+                class="splide splide-sertifikati"
+                aria-label="sertifikati slider"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="assets/iso.png" alt="" />
+                        </div>
+                        <div class="slide-text">
+                          SISTEMI UPRAVLJANJA KVALITETOM
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="assets/mtel.png" alt="" />
+                        </div>
+                        <div class="slide-text">
+                          SERTIFIKAT O USKLAĐENOSTI FABRIČKE KONTROLE
+                          PROIZVODNJE
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="assets/iso.png" alt="" />
+                        </div>
+                        <div class="slide-text">
+                          SISTEMI UPRAVLJANJA ZAŠTITOM ŽIVOTNE SREDINE
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="assets/mtel.png" alt="" />
+                        </div>
+                        <div class="slide-text">
+                          SERTIFIKAT O USKLAĐENOSTI FABRIČKE KONTROLE
+                          PROIZVODNJE
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="partneri-section standard-block"
+      style="background-image: url(img/partneri.jpg)"
+    >
+      <div class="bg-overlay"></div>
+      <div class="container">
+        <div class="section-content">
+          <div class="big-heading">Partneri</div>
+          <div class="heading-wrap mb-5">
+            <h2>Partneri</h2>
+          </div>
+          <div class="slider-wrap mt-xl-5">
+            <div class="part-sert-slider">
+              <div class="splide splide-partneri" aria-label="partneri slider">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="assets/mtel.png" alt="" />
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="assets/iso.png" alt="" />
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="assets/mtel.png" alt="" />
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div
+                        class="slide-box d-flex flex-column align-items-center"
+                      >
+                        <div class="slide-img">
+                          <img src="assets/iso.png" alt="" />
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="background-logo">
+        <img src="assets/logo2.png" alt="" class="img-fluid" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="footer-content p-lg-2">
+              <div class="footer-logo-wra text-center text-lg-start">
+                <a href="index.html" class="footer-logo-link"
+                  ><img src="assets/ars-logo.png" alt=""
+                /></a>
+              </div>
+              <div class="footer-info-box">
+                <div class="footer-info-wrap d-flex align-items-center">
+                  <div class="footer-info-icon me-2">
+                    <img src="assets/signature.svg" alt="" />
+                  </div>
+                  <div class="footer-info-text">
+                    ARS INŽENJERING d.o.o. Banja Luka
+                  </div>
+                </div>
+                <div class="footer-info-wrap d-flex align-items-center">
+                  <div class="footer-info-icon me-2">
+                    <img src="assets/phone.svg" alt="" />
+                  </div>
+                  <div class="footer-info-text">
+                    <a href="tel:+38751384120">+387 51 384 120</a>
+                  </div>
+                </div>
+                <div class="footer-info-wrap d-flex align-items-center">
+                  <div class="footer-info-icon me-2">
+                    <img src="assets/fax.svg" alt="" />
+                  </div>
+                  <div class="footer-info-text">
+                    <a href="fax:+38751384120">+387 51 384 121</a>
+                  </div>
+                </div>
+                <div class="footer-info-wrap d-flex align-items-center">
+                  <div class="footer-info-icon me-2">
+                    <img src="assets/map-location-dot.svg" alt="" />
+                  </div>
+                  <div class="footer-info-text">
+                    <a
+                      class="popup-gmaps"
+                      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.7466382101525!2d17.185457615804534!3d44.826725983772036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e01f5745cf78b%3A0xd030c7fbfb134fe7!2sARS%20IN%C5%BDENJERING%20d.o.o.!5e0!3m2!1ssr!2sba!4v1649440085931!5m2!1ssr!2sb"
+                      >Ciglane br. 39, 78000 Banja Luka</a
+                    >
+                  </div>
+                </div>
+                <div class="footer-info-wrap d-flex align-items-center">
+                  <div class="footer-info-icon me-2">
+                    <img src="assets/envelope.svg" alt="" />
+                  </div>
+                  <div class="footer-info-text">
+                    <a href="mailto:arsbl@teol.net ">arsbl@teol.net </a>
+                  </div>
+                </div>
+                <div class="footer-info-wrap d-flex align-items-center">
+                  <div class="footer-info-icon me-2">
+                    <img src="assets/globe.svg" alt="" />
+                  </div>
+                  <div class="footer-info-text">
+                    <a href="#">www.arsinzenjering.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-social-wrap">
+                <div
+                  class="social-box d-flex align-items-center justify-content-center"
+                >
+                  <a href="" class="social-icon"
+                    ><img src="assets/youtube.svg" alt=""
+                  /></a>
+                  <a href="" class="social-icon"
+                    ><img src="assets/facebook.svg" alt=""
+                  /></a>
+                  <a href="" class="social-icon"
+                    ><img src="assets/linkedin.svg" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="footer-content p-lg-2">
+              <div class="contact-block">
+                <p>
+                  Za sva pitanja kontaktirajte nas putem forme ili direktno na
+                  email.
+                </p>
+                <form>
+                  <div class="mb-4">
+                    <input
+                      type="text"
+                      placeholder="Ime i prezime:"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <input
+                      type="email"
+                      placeholder="Email:"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <input
+                      type="text"
+                      placeholder="Broj telefona:"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <textarea
+                      name=""
+                      rows="5"
+                      placeholder="Poruka:"
+                      class="form-control"
+                    ></textarea>
+                  </div>
+                  <div class="form-btn-wrap d-flex justify-content-end mt-5">
+                    <a href="#" class="btn btn-primary pulse-grow-on-hover"
+                      >Pošalji</a
+                    >
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="footer-content h-100 w-100 d-flex align-items-center p-lg-2"
+            >
+              <div class="map-wrap corner-borde w-100">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.7761733964185!2d17.18439456580462!3d44.826124333811535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e01f5745cf78b%3A0xd030c7fbfb134fe7!2sARS%20IN%C5%BDENJERING%20d.o.o.!5e0!3m2!1ssr!2sba!4v1649372141386!5m2!1ssr!2sba"
+                  height="300"
+                  width="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/splide-4.0.0/dist/js/splide.min.js"></script>
+    <script src="scripts/Magnific-Popup/dist/jquery.magnific-popup.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
