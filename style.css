@@ -437,7 +437,7 @@ body.admin-bar .navbar {
     .per-btn:before {
       content: "";
       position: absolute;
-      top: 0;
+      top: -7%;
       left: 0;
       display: block;
       border-radius: 27px;
@@ -1111,6 +1111,7 @@ body.admin-bar .navbar {
     position: absolute;
     width: 150%;
     height: 150%;
+    background: rgba(198, 16, 0, 0);
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
     -webkit-animation: pulsate1 2s;
@@ -1124,10 +1125,10 @@ body.admin-bar .navbar {
     opacity: 1;
     border-radius: 50%;
     border: 5px solid rgba(255, 255, 255, .75);
-    top: -30%;
-    left: -30%;
+    top: -25%;
+    left: -25%;
     
-    background: rgba(198, 16, 0, 0);
+    
   }
   
   @-webkit-keyframes pulsate1 {
