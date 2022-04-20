@@ -31,6 +31,21 @@ $(document).ready(function () {
       fixedContentPos: false
     });
 
+  (function($){
+  
+    $('.popup-gallery').each(function() { // the containers for all your galleries
+        $(this).magnificPopup({
+            delegate: 'a', // the selector for gallery item
+            type: 'image',
+            gallery: {
+              enabled:true
+            },
+            
+        });
+    });
+    
+  })(jQuery);
+
 
 
     	
@@ -112,6 +127,8 @@ $(window).scroll( function(){
 });
 
 
+
+
 var splide = new Splide( '.splide-sertifikati', {
     perPage: 3,
     rewind : true,
@@ -190,3 +207,6 @@ var splide = new Splide( '.splide-sertifikati', {
 
 
 
+
+
+ 

@@ -11,18 +11,13 @@ body {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: var(--dark);
   letter-spacing: 0px;
   line-height: 1.18;
   font-family: 'Jura', sans-serif;;
+  background-color: var(--dark);
 }
 
-ul {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
+
 
 * {
   -moz-transition: all 0.3s ease 0s;
@@ -112,6 +107,7 @@ ul {
     animation-fill-mode: none;
     animation-play-state: running;
     animation-name: newsTitle;
+    
 }
 
 @keyframes newsTitle{
@@ -129,7 +125,9 @@ ul {
         transform: translateX(0%);
     }
 }
-
+.mfp-wrap {
+    z-index: 11000;
+}
 
 
 .video-wrap {
@@ -166,7 +164,7 @@ ul {
 
 .sertifikati-section h2,
 .partneri-section h2,
-.about-section h2,.usluge-section h2, .proizvodi-section h2,.reference-section h2
+.about-section h2,.usluge-section h2, .proizvodi-section h2,.reference-section h2,.cover-page h2
  {
     font-size: 40px;
     letter-spacing: 0.2px;
@@ -222,7 +220,7 @@ body.admin-bar .navbar {
 
 .scrolled {
     background-color: rgba(0, 0, 0, 0.75);
-    z-index: 10000000;
+    z-index: 10000;
 
 }
 
@@ -456,7 +454,6 @@ body.admin-bar .navbar {
 
     .per-btn:active {
       transform: scale(0.96); }
-
 
 
 
@@ -1009,6 +1006,214 @@ body.admin-bar .navbar {
 }
 
 
+/************************
+    Pages
+***********************/
+
+.heading-wrap {
+    position: relative;
+    z-index: 100;
+    
+}
+
+.cover-page {
+    padding-top: 300px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.content-wrap {
+    position: relative;
+    z-index: 100;
+}
+
+.cover-page .big-heading {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: 30%;
+    transform: translateY(-30%);
+    opacity: 0.5;
+}
+
+.main-content ul {
+    list-style: disc;
+}
+
+.main-content ul  {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    list-style: disc;
+}
+
+.contact-page {
+    position: relative;
+}
+
+.location-block .map-wrap iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.copyright-wrap p {
+    color: #ffffff;
+    margin: 0px;
+}
+
+.contact-page .footer-info-box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.highlight-text {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.sertifikati-section .main-content p {
+    color: #ffffff;
+}
+
+
+.iso-standard-block .popup-gallery a {
+    margin-right: 20px;
+}
+
+.iso-standard-block .popup-gallery a img {
+    width: auto;
+    height: 250px;
+    object-fit: fill;
+}
+
+.iso-name {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text-section p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.image-wrap img {
+    object-fit: cover;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.usluge-cards .card-box {
+    height: auto;
+}
+
+.usluge-cards .card-text {
+    display: block;
+}
+
+.proizvodi-text-box h3 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.proizvodi-text-box p {
+    color: #ffffff;
+    font-size: 18px;
+}
+.proizvodi-section .popup-gallery a img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+
+.project-card {
+    border-bottom: 1px solid var(--primary-color);
+    height: 100%;
+}
+
+.project-btn-wrap {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.project-card-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: linear-gradient(0deg, #323334 0%, #282828 82%, #242323 100%);
+}
+
+.project-tip {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.investitor-heading, .project-heading, .description-heading {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.investitor-name,.project-name, .project-name a {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.page-link {
+    color: #ffffff;
+    background-color: var(--primary-color);
+    border: 1px solid #ffffff;
+}
+
+.page-link:hover {
+    color: var(--primary-color);
+    background-color: #ffffff;
+}
+
+.project-description  p{
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.single-project-gallery .popup-gallery a img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 10px;
+}
 
 /********************************
            BUTTONS
@@ -1199,7 +1404,7 @@ body.admin-bar .navbar {
         top: -100px;    
 }
    
-    .sertifikati-section h2, .partneri-section h2, .about-section h2, .usluge-section h2, .proizvodi-section h2, .reference-section h2 {
+    .sertifikati-section h2, .partneri-section h2, .about-section h2, .usluge-section h2, .proizvodi-section h2, .reference-section h2, .cover-page h2 {
         font-size: 36px;
     }
     .about-section p {
@@ -1303,7 +1508,7 @@ body.admin-bar .navbar {
         padding-top: 90px;
         padding-bottom: 90px;
     }
-    .sertifikati-section h2, .partneri-section h2, .about-section h2, .usluge-section h2, .proizvodi-section h2, .reference-section h2 {
+    .sertifikati-section h2, .partneri-section h2, .about-section h2, .usluge-section h2, .proizvodi-section h2, .reference-section h2, .cover-page h2 {
         font-size: 34px;
     }
     .about-section p {
@@ -1362,6 +1567,15 @@ body.admin-bar .navbar {
     }
     .carousel-indicators {
         bottom: 40px;
+    }
+    .cover-page {
+        padding-top: 200px;
+    }
+    .main-content .video-iframe {
+        height: 500px;
+    }
+    .footer-logo-link img {
+        height: 90px;
     }
 }
 
@@ -1451,9 +1665,7 @@ body.admin-bar .navbar {
         margin-top: 60px;
         margin-bottom: 50px;
     }
-    .footer-logo-link img {
-        height: 90px;
-    }
+   
     .carousel-indicators [data-bs-target] {
         width: 12px;
         height: 12px;
@@ -1465,6 +1677,7 @@ body.admin-bar .navbar {
         width: 110px;
         height: 110px;
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -1533,6 +1746,13 @@ body.admin-bar .navbar {
     }
     .scroll {
         left: 20px;
+    }
+    
+    .main-content .video-iframe {
+        height: 450px;
+    }
+    .iso-standard-block .popup-gallery a img{
+        margin-bottom: 20px;
     }
 }
 
@@ -1654,6 +1874,12 @@ body.admin-bar .navbar {
     .scroll {
         left: 10px;
     }
+    .main-content .video-iframe {
+        height: 300px;
+    }
+    .text-section p,.proizvodi-text-box p{
+        font-size: 16px;
+    }
 }
 
 
@@ -1697,7 +1923,7 @@ body.admin-bar .navbar {
     .about-section p {
         font-size: 16px;
     }
-    .sertifikati-section h2, .partneri-section h2, .about-section h2, .usluge-section h2, .proizvodi-section h2, .reference-section h2 {
+    .sertifikati-section h2, .partneri-section h2, .about-section h2, .usluge-section h2, .proizvodi-section h2, .reference-section h2, .cover-page h2 {
         font-size: 28px;
     }
     .card-icon img {
@@ -1752,7 +1978,20 @@ body.admin-bar .navbar {
         width: 70px;
         height: 70px;
     }
+    .cover-page {
+        padding-top: 170px;
+    }
+    .main-content .video-iframe {
+        height: 300px;
+    }
+    .iso-standard-block .popup-gallery {
+        text-align: center;
+    }
+    .text-section p, .proizvodi-text-box p{
+        font-size: 14px;
+    }
 }
+
 
 @media (max-width: 370px) {
     .navbar-brand img {
@@ -1793,7 +2032,7 @@ body.admin-bar .navbar {
         padding: 10px 30px;
         font-size: 16px;
     }
-    .sertifikati-section h2, .partneri-section h2, .about-section h2, .usluge-section h2, .proizvodi-section h2, .reference-section h2 {
+    .sertifikati-section h2, .partneri-section h2, .about-section h2, .usluge-section h2, .proizvodi-section h2, .reference-section h2, .cover-page h2 {
         font-size: 24px;
     }
     .card-icon img {
@@ -1854,9 +2093,16 @@ body.admin-bar .navbar {
         width: 60px;
         height: 60px;
     }
+    .cover-page {
+        padding-top: 150px;
+    }
+    .text-section p, .proizvodi-text-box p{
+        font-size: 12px;
+    }
+    .proizvodi-text-box h3 {
+        font-size: 18px;
+    }
 }
-
-
 
 
 
