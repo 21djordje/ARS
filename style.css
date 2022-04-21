@@ -1577,6 +1577,9 @@ body.admin-bar .navbar {
     .footer-logo-link img {
         height: 90px;
     }
+    .scroll {
+        left: 20px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -1677,6 +1680,9 @@ body.admin-bar .navbar {
         width: 110px;
         height: 110px;
     }
+    .scroll {
+        left: 15px;
+    }
     
 }
 
@@ -1753,6 +1759,9 @@ body.admin-bar .navbar {
     }
     .iso-standard-block .popup-gallery a img{
         margin-bottom: 20px;
+    }
+    .scroll {
+        left: 10px;
     }
 }
 
@@ -1880,6 +1889,10 @@ body.admin-bar .navbar {
     .text-section p,.proizvodi-text-box p{
         font-size: 16px;
     }
+    .scroll {
+        left: 5px;
+    }
+
 }
 
 
@@ -1989,6 +2002,9 @@ body.admin-bar .navbar {
     }
     .text-section p, .proizvodi-text-box p{
         font-size: 14px;
+    }
+    .scroll {
+        left: 4px;
     }
 }
 
