@@ -573,6 +573,7 @@ body.admin-bar .navbar {
 
 
 .about-section p {
+    text-align: justify;
     color: #FFFFFF;
     font-size: 20px;
     line-height: 1.15;
@@ -681,7 +682,7 @@ body.admin-bar .navbar {
     font-size: 20px;
     font-weight: 500;
     color: #F5F5F5;
-  
+    text-align: justify;
 }
 
 .usluge-btn-wrap {
@@ -744,6 +745,7 @@ body.admin-bar .navbar {
 }
 
 .accordion-body {
+    text-align: justify;
     color: #F5F5F5;
     font-size: 20px;
     padding: 1rem;
@@ -1079,6 +1081,7 @@ body.admin-bar .navbar {
 }
 
 .sertifikati-section .main-content p {
+    text-align: justify;
     color: #ffffff;
 }
 
@@ -1102,6 +1105,7 @@ body.admin-bar .navbar {
 .text-section p {
     color: #ffffff;
     font-size: 18px;
+    text-align: justify;
 }
 
 .image-wrap img {
@@ -1128,6 +1132,7 @@ body.admin-bar .navbar {
 .proizvodi-text-box p {
     color: #ffffff;
     font-size: 18px;
+    text-align: justify;
 }
 .proizvodi-section .popup-gallery a img {
     width: 150px;
@@ -1206,6 +1211,7 @@ body.admin-bar .navbar {
 .project-description  p{
     font-size: 18px;
     color: var(--primary-color);
+    text-align: justify;
 }
 
 .single-project-gallery .popup-gallery a img {
